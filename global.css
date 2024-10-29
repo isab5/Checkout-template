@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-color: #FDFBFC;
+    --cor-site: #E15113;
+}
+
+body {
+    background-color: var(--background-color) ;
+    font-family: "Poppins", sans-serif;
+}
+
+.header-checkout {
+    display: flex;
+    padding: 2rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-top: 1.2rem;
+}
+
+.seta {
+    font-size: 2.5rem;
+    padding-right: 4rem ;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.subtitle {
+    font-size: 0.7rem;
+    color: var(--cor-site);
+}
+
+.line {
+    background-color: rgb(165, 163, 163);
+    margin-left: 4rem;
+    width: 50rem;
+    height: 0.2rem;
+}
+
+.forms {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 4rem;
+    max-width: 1000px;
+}
+
+form label{
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: 300;
+}
+
+form input{
+    width: 20rem;
+    height: 2rem;
+    border: 1px var(--cor-site) solid;
+    border-radius: 0.4rem;
+    padding: 1rem;
+}
+
+
+select {
+    width: 10rem;
+    height: 2rem;
+    border: 1px var(--cor-site) solid;
+    border-radius: 0.4rem;
+    padding: 1rem;
+}
+
+.name {
+    display: flex;
+    gap: 5rem;
+}
+
+.first-name {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.last-name {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.contact {
+    display: flex;
+    gap: 5rem;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.phone-number {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.delivery {
+    display: flex;
+    gap: 5rem;
+}
+
+.delivery-date {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.address {
+    display: flex;
+    gap: 2rem;
+}
+
+.city {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.address-url {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.code {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.button-payment {
+    background-color: var(--cor-site);
+    border: none;
+    cursor: pointer;
+    padding: 1.5rem 20rem;
+}
