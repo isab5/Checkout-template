@@ -15,16 +15,17 @@
         </div>
     </header>
     <div class="line"></div>
+    <main class="main-sections">
         <section class="forms">
             <form action="">
-                    <legend>Contact Information</legend>
-                    <div class="name">
-                        <div class="first-name"> 
-                            <label for="nome">First Name:</label>
-                            <input type="text" id="nome" name="nome" placeholder="First Name e.g Peter, Anthony" required maxlength="100">
-                        </div>
-                        <div class="last-name">
-                            <label for="nome">Last Name:</label>
+                <legend>Contact Information</legend>
+                <div class="name">
+                <div class="first-name"> 
+                    <label for="nome">First Name:</label>
+                    <input type="text" id="nome" name="nome" placeholder="First Name e.g Peter, Anthony" required maxlength="100">
+                </div>
+                <div class="last-name">
+                    <label for="nome">Last Name:</label>
                             <input type="text" id="nome" name="nome" placeholder="Last Name e.g Anderson, Clark" required maxlength="100">
                         </div>
                     </div>
@@ -49,28 +50,39 @@
                             <input type="time" id="time" name="time" min="07:00" max="18:00" required>
                         </div>
                     </div>
-                        <div class="address">
-                            <div class="city">
-                                <label for="city">City:</label>
-                                <select name="city" id="city" required>
-                                    <option value="Phoenix">Alabama</option>
-                                    <option value="miami">Miami</option>
-                                    <option value="new-york">New York</option>
-                                    <option value="los-angeles">Los Angeles</option>
-                                    <option value="denver">Denver</option>
-                                </select>
+                    <div class="address">
+                        <div class="city">
+                            <label for="city">City:</label>
+                            <select name="city" id="city" required>
+                                <option value="phoenix">Phoenix</option>
+                                <option value="miami">Miami</option>
+                                <option value="new-york">New York</option>
+                                <option value="los-angeles">Los Angeles</option>
+                                <option value="denver">Denver</option>
+                            </select>
+                        </div>
+                        <div class="address-url">
+                            <label for="address">Address</label>
+                            <input type="text" id="nome" name="nome" placeholder="Add your address" required maxlength="100">
+                        </div>
+                            <div class="code">
+                                <label for="text">Code:</label>
+                                <input type="text" id="code" name="code" placeholder="0000" maxlength="4" required>
                             </div>
-                                <div class="address-url">
-                                    <label for="address">Address</label>
-                                    <input type="text" id="nome" name="nome" placeholder="Add your address" required maxlength="100">
-                                </div>
-                                <div class="code">
-                                    <label for="text">Code:</label>
-                                    <input type="text" id="code" name="code" placeholder="0000" maxlength="4" required>
-                                </div>
                         </div>
                     </form>
+                </section>
+                <section>
+                    <aside class="online-shopping">
+                        <h3 class="title-aside">Your Order</h3>
+                <div class="line01"></div>
+                <div class="jacket">
+                    <h4> Vintage Sport Jacket </h4>
+                    <img class="jacket-vinatge" src="./img/jacket school.png" alt="jaqueta escolar vintage">
+                </div>
+            </aside>
         </section>
-        <button class="button-payment">Proceeed to Payment</button>
-</body>
-</html>
+    </main>
+    <button class="button-payment">Proceeed to Payment</button>
+    </body>
+    </html>

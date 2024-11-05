@@ -14,6 +14,7 @@
 body {
     background-color: var(--background-color) ;
     font-family: "Poppins", sans-serif;
+    
 }
 
 .header-checkout {
@@ -43,7 +44,12 @@ body {
     background-color: rgb(165, 163, 163);
     margin-left: 4rem;
     width: 50rem;
-    height: 0.2rem;
+    height: 0.1rem;
+}
+
+.main-sections {
+    display: flex;
+    gap: 5rem;
 }
 
 .forms {
@@ -67,8 +73,11 @@ form input{
     padding: 1rem;
 }
 
+input::placeholder {
+    color: rgb(156, 156, 156);
+}
 
-select {
+form select {
     width: 10rem;
     height: 2rem;
     border: 1px var(--cor-site) solid;
@@ -84,13 +93,13 @@ select {
 .first-name {
     display: flex;
     flex-direction: column;
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 
 .last-name {
     display: flex;
     flex-direction: column;
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 
 .contact {
@@ -101,13 +110,13 @@ select {
 .email {
     display: flex;
     flex-direction: column;
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 
 .phone-number {
     display: flex;
     flex-direction: column;
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 
 .delivery {
@@ -118,13 +127,13 @@ select {
 .delivery-date {
     display: flex;
     flex-direction: column;
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 
 .time {
     display: flex;
     flex-direction: column;
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 
 .address {
@@ -135,24 +144,56 @@ select {
 .city {
     display: flex;
     flex-direction: column;
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 
 .address-url {
     display: flex;
     flex-direction: column;
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 
 .code {
     display: flex;
     flex-direction: column;
-    padding: 1rem 0;
+    padding: 2rem 0;
+    width: 2rem;
 }
 
 .button-payment {
     background-color: var(--cor-site);
     border: none;
     cursor: pointer;
-    padding: 1.5rem 20rem;
+    padding: 1.5rem 21rem;
+    border-radius: 1rem;
+    margin-left: 4rem;
+}
+
+.button-payment:hover {
+    background-color: #f86f34;
+}
+
+.online-shopping {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-aside {
+    padding: 0 10rem;
+}
+
+.line01 {
+    background-color: rgb(165, 163, 163);
+    margin-left: 10rem;
+    width: 50rem;
+    height: 0.1rem;
+}
+
+img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.jacket {
+    padding: 2rem 10rem;
 }
